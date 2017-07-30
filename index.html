@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TKU Ping</title>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/ping.min.js"></script>  
+    <script src="./windows.js"></script>
+ 
+  </head>
+  <body>
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <ul>
+    <li>google.com <span id="ping-google"></span></li>
+    </ul>
+
+  </body>
+
+  <script>
+    require('./renderer.js')
+  </script>
+</html>
